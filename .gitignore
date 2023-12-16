@@ -1,3 +1,5 @@
+$ cat .git/info/exclude
+*.[oa]
 *.o
 *log
 !/teste-code
