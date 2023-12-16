@@ -1,0 +1,4 @@
+yaga.cpp:20:15: warning: unused variable 'cmd_stream' [-Wunused-variable]
+   20 |   const char* cmd_stream;
+      |               ^~~~~~~~~~
+1 warning generated.
