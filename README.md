@@ -10,4 +10,9 @@
 
 # ---Tips and learning I did get.
 
-# strcmp() return trash from memory if you doesn use the variables itself. if a variable have trash in it strcmp cannot process this data and it will return a segmentation fault. May C++17 cannot handle with that ? is there another way to do that cuz I see compare char* direct from statements ain't possible.
+# strcmp() return trash from memory if you doesn use the variables correctly. If a variable get trash in it, strcmp() cannot process this inexistent data, cuz *argv[] wasn't declared yet, it's dynamic allocated.
+
+# --- Things to do  ------ #
+ 
+# 1 - Correct call function every time, just execute once if tag_cmp() is true. - Use BUFFER-ON/BUFFER-OFF to do it.
+# 2 - ln 93 executing every time due the "recursive" effect of yaga_main(). Correct firsth and that will be solved automatically.
